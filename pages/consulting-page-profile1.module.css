@@ -1,0 +1,543 @@
+.shape {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--background-color);
+  border: 1px solid var(--background-color);
+  box-sizing: border-box;
+}
+.shape,
+.shapeIcon,
+.shapeIcon1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.shapeIcon {
+  height: 30px;
+  width: 30.3px;
+  top: 41px;
+  left: 158.8px;
+  z-index: 2;
+}
+.shapeIcon1 {
+  height: 53px;
+  width: 53.6px;
+  top: 35px;
+  right: 23.3px;
+  border-radius: 50%;
+  object-fit: contain;
+  z-index: 1;
+}
+.separator,
+.shape1 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.shape1 {
+  height: 64px;
+  width: 64.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: 28px;
+  left: 28.3px;
+  border-radius: 50%;
+  background-color: var(--primary);
+}
+.separator {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-15xl-5);
+  background-color: var(--background-color);
+  border: 1px solid var(--text-secondary);
+}
+.detailsRow {
+  height: 56px;
+  width: 433.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.offersDeals {
+  text-decoration: none;
+  width: 222.5px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.detailsRow1 {
+  width: 345.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.avatarRowChild {
+  width: 43.5px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.avatarRow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.consultantName {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 17.2px;
+  z-index: 1;
+}
+.consultantInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  gap: var(--gap-8xs);
+}
+.experienceIcon1 {
+  width: 43.5px;
+  height: 43px;
+  position: relative;
+  z-index: 1;
+}
+.experienceIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.experienceYears {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 17.2px;
+  z-index: 1;
+}
+.experience,
+.experienceRow {
+  display: flex;
+  align-items: flex-start;
+}
+.experience {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.experienceRow {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs-3);
+}
+.feeIcon1 {
+  width: 43.5px;
+  height: 43px;
+  position: relative;
+  z-index: 1;
+}
+.feeIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.feeAmount {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 17.2px;
+  z-index: 1;
+}
+.fee,
+.feeRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feeRow {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs-3);
+}
+.consultantInfoParent {
+  align-self: stretch;
+  width: 304.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--primary);
+}
+.detailsRowParent,
+.offerDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.detailsRowParent {
+  align-self: stretch;
+  gap: var(--gap-22xl-5);
+}
+.offerDetails {
+  flex: 1;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.separator1 {
+  align-self: stretch;
+  height: 0;
+  position: relative;
+  z-index: 1;
+}
+.offersContainer {
+  align-self: stretch;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl-7);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-aktivgrotesk-bold);
+}
+.launchpad {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.navLink {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.separator2 {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid var(--primary);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.navItem {
+  width: 174.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.learning {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.navLink1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.separator3 {
+  width: 138.5px;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid var(--primary);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.navItem1 {
+  width: 146.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.networking,
+.separator4 {
+  position: relative;
+  z-index: 1;
+}
+.networking {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.separator4 {
+  width: 174.9px;
+  height: 2px;
+  border-top: 2px solid var(--primary);
+  box-sizing: border-box;
+}
+.navLink2 {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.projects {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.navLink3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.separatorIcon {
+  width: 142.6px;
+  height: 3px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.projectsLink {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.jobs,
+.separator5 {
+  position: relative;
+  z-index: 1;
+}
+.jobs {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.separator5 {
+  width: 80.9px;
+  height: 2px;
+  border-top: 2px solid var(--primary);
+  box-sizing: border-box;
+}
+.navItem4 {
+  width: 78.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-10xs);
+}
+.navItem2,
+.navItem3,
+.navItem4 {
+  justify-content: flex-start;
+}
+.navItem3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-7xl-3);
+  min-width: 166px;
+}
+.navItem2 {
+  width: 510.7px;
+  gap: var(--gap-55xl-8);
+}
+.navItem2,
+.navItems,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navItems {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navigation {
+  width: 1131px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-36xl);
+  box-sizing: border-box;
+}
+.offersContainerParent {
+  width: 1195.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.component113 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-6xl) var(--padding-xl) var(--padding-lgi)
+    var(--padding-41xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.bookingDetails {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+.bookingDetailsWrapper,
+.consultingPageProfile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.bookingDetailsWrapper {
+  width: 366px;
+  flex-direction: row;
+  padding: 0 var(--padding-48xl) var(--padding-6xs);
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-aktivgrotesk-bold);
+}
+.consultingPageProfile {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-color);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 5800px;
+  gap: var(--gap-7xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-aktivgrotesk-medium);
+}
+@media screen and (max-width: 1225px) {
+  .navigation {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .component113 {
+    padding-left: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .navItems {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .detailsRowParent {
+    gap: var(--gap-2xl);
+  }
+  .offersContainer {
+    gap: var(--gap-base);
+  }
+  .jobs,
+  .launchpad,
+  .learning,
+  .networking,
+  .projects {
+    font-size: var(--font-size-7xl);
+  }
+  .navItem2 {
+    flex-wrap: wrap;
+    gap: var(--gap-18xl);
+  }
+  .offersContainerParent {
+    gap: var(--gap-5xl);
+  }
+  .bookingDetails {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .jobs,
+  .launchpad,
+  .learning,
+  .networking,
+  .projects {
+    font-size: var(--font-size-lgi);
+  }
+  .navItem2 {
+    gap: var(--gap-lgi);
+  }
+  .bookingDetails {
+    font-size: var(--font-size-lg);
+  }
+  .bookingDetailsWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

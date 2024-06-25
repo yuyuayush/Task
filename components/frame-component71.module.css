@@ -1,0 +1,331 @@
+.am,
+.frameChild {
+  position: relative;
+}
+.frameChild {
+  height: 76px;
+  width: 180px;
+  border-radius: var(--br-3xs);
+  background-color: var(--background-color);
+  border: 1px solid var(--primary);
+  box-sizing: border-box;
+  display: none;
+}
+.am {
+  display: inline-block;
+  min-width: 124px;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--background-color);
+  border: 1px solid var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-8xl) var(--padding-7xl);
+  white-space: nowrap;
+}
+.am1,
+.frameItem {
+  position: relative;
+}
+.frameItem {
+  height: 76px;
+  width: 180px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.am1 {
+  display: inline-block;
+  min-width: 124px;
+  z-index: 1;
+}
+.rectangleGroup,
+.timeSlots {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-9xl) var(--padding-9xl);
+  white-space: nowrap;
+  color: var(--color-darkslategray-100);
+}
+.timeSlots {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-16xl);
+  min-width: 117px;
+  color: var(--primary);
+}
+.frameInner {
+  height: 76px;
+  width: 187px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.am2 {
+  position: relative;
+  display: inline-block;
+  min-width: 124px;
+  z-index: 1;
+}
+.rectangleContainer,
+.rectangleDiv {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+}
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-12xl) var(--padding-4xl)
+    var(--padding-13xl);
+  white-space: nowrap;
+}
+.rectangleDiv {
+  height: 76px;
+  width: 187px;
+  position: relative;
+  display: none;
+}
+.am3 {
+  position: relative;
+  display: inline-block;
+  min-width: 124px;
+  z-index: 1;
+}
+.frameDiv,
+.timeSlots1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  padding: var(--padding-10xl) var(--padding-12xl) var(--padding-4xl)
+    var(--padding-13xl);
+  white-space: nowrap;
+}
+.timeSlots1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-16xl);
+  min-width: 122px;
+}
+.durationList,
+.durationOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.durationList {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-23xl);
+}
+.durationOptions {
+  width: 1289px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.hourValuesChild,
+.separator {
+  position: relative;
+  box-sizing: border-box;
+}
+.separator {
+  align-self: stretch;
+  height: 2px;
+  border-top: 2px solid var(--color-whitesmoke-200);
+}
+.hourValuesChild {
+  height: 76px;
+  width: 180px;
+  border-radius: var(--br-3xs);
+  background-color: var(--background-color);
+  border: 1px solid var(--primary);
+  display: none;
+}
+.am4 {
+  position: relative;
+  display: inline-block;
+  min-width: 124px;
+  z-index: 1;
+}
+.hourValues,
+.pMLabelChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--background-color);
+  border: 1px solid var(--primary);
+  box-sizing: border-box;
+}
+.hourValues {
+  flex: 0.7126;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-7xl) var(--padding-5xl)
+    var(--padding-9xl);
+  min-width: 117px;
+  white-space: nowrap;
+}
+.pMLabelChild {
+  height: 76px;
+  width: 180px;
+  position: relative;
+  display: none;
+}
+.pm {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.pMHours,
+.pMLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pMLabel {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--background-color);
+  border: 1px solid var(--primary);
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-base) var(--padding-7xl);
+  white-space: nowrap;
+}
+.pMHours {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 121px;
+}
+.hourValuesItem {
+  height: 76px;
+  width: 180px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.am5 {
+  position: relative;
+  display: inline-block;
+  min-width: 124px;
+  z-index: 1;
+}
+.hourLabel,
+.hourOption,
+.hourValues1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.hourValues1 {
+  flex: 0.7126;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  padding: var(--padding-5xl) var(--padding-9xl) var(--padding-9xl);
+  min-width: 117px;
+  white-space: nowrap;
+  color: var(--color-darkslategray-100);
+}
+.hourLabel,
+.hourOption {
+  max-width: 100%;
+}
+.hourLabel {
+  flex: 1;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-21xl);
+}
+.hourOption {
+  width: 874px;
+  padding: 0 var(--padding-5xl);
+}
+.hourlyDuration,
+.sessionDurationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hourlyDuration {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-lgi);
+  color: var(--primary);
+}
+.sessionDurationContainer {
+  width: 1307px;
+  align-items: flex-end;
+  gap: var(--gap-15xl);
+}
+.sessionDuration {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-26xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-aktivgrotesk-medium);
+}
+@media screen and (max-width: 1200px) {
+  .durationList {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hourLabel {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .durationList {
+    gap: var(--gap-2xl);
+  }
+  .sessionDurationContainer {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .hourValues,
+  .hourValues1 {
+    flex: 1;
+  }
+  .hourLabel {
+    gap: var(--gap-xl);
+  }
+  .sessionDuration {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

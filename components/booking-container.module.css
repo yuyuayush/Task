@@ -1,0 +1,395 @@
+.bookingContentChild {
+  height: 256px;
+  width: 1388px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--background-color);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.bookingIdBackground {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.bookingId {
+  position: relative;
+  display: inline-block;
+  min-width: 102px;
+  z-index: 1;
+}
+.bookingIdContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+}
+.div {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.bookingIdBackgroundParent,
+.bookingIdValue {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookingIdValue {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-aktivgrotesk-regular);
+}
+.bookingIdBackgroundParent {
+  width: 125px;
+  flex-direction: column;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-4xs-5);
+}
+.category1Icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.categoryType {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.consultationCategory {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.categoryHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.startupConsultation {
+  width: 191px;
+  position: relative;
+  font-family: var(--font-aktivgrotesk-regular);
+  color: var(--color-darkslategray-100);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.bookingCategory {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-5);
+  min-width: 138px;
+}
+.sessionTimeBackground {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.sessionTime {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.sessionTimeContainer,
+.sessionTimeHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-4xs);
+}
+.sessionTimeContainer {
+  flex-direction: column;
+  padding: 0 0 var(--padding-8xs);
+  gap: var(--gap-11xs);
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-aktivgrotesk-medium);
+}
+.wedMay102024 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.dateTime {
+  width: 187px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  color: var(--color-darkslategray-100);
+}
+.am {
+  position: relative;
+  display: inline-block;
+  min-width: 119px;
+  z-index: 1;
+}
+.timeOfDayContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+}
+.timeOfDaySeparator {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.timeOfDay,
+.timeOfDayValue {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.timeOfDayValue {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.timeOfDay {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-sm) 0 var(--padding-4xs);
+}
+.hrs {
+  position: relative;
+  display: inline-block;
+  min-width: 60px;
+  z-index: 1;
+}
+.dateTime1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-55xl) 0 var(--padding-51xl);
+}
+.bookingCategoryParent,
+.dateTime1,
+.sessionDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sessionDetails {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  min-width: 133px;
+  color: var(--text-secondary);
+  font-family: var(--font-aktivgrotesk-regular);
+}
+.bookingCategoryParent {
+  width: 514px;
+  flex-direction: row;
+  gap: var(--gap-78xl);
+  max-width: 100%;
+}
+.bookingStatusBackground {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.bookingStatus1 {
+  width: 143px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.frameChild {
+  height: 43px;
+  width: 150px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavender);
+  display: none;
+}
+.confirmed {
+  position: relative;
+  display: inline-block;
+  min-width: 107px;
+  z-index: 1;
+}
+.rectangleParent,
+.statusInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavender);
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-2xl) var(--padding-5xs);
+  z-index: 1;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-aktivgrotesk-regular);
+}
+.statusInfo {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.joinSessionButtonChild {
+  height: 55px;
+  width: 300px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--background-color);
+  border: 2px solid var(--primary);
+  box-sizing: border-box;
+  display: none;
+}
+.joinSession {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.joinSessionButton,
+.joinSessionButtonContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.joinSessionButton {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--background-color);
+  border: 2px solid var(--primary);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-57xl) var(--padding-2xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.joinSessionButtonContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 195px;
+  font-size: var(--font-size-5xl);
+  color: var(--primary);
+}
+.statusDetails {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-34xl);
+}
+.bookingStatus,
+.bookingStatusBackgroundParent,
+.statusDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bookingStatus {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.bookingStatusBackgroundParent {
+  width: 512px;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+}
+.bookingContainer,
+.bookingContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bookingContent {
+  width: 1388px;
+  border-radius: var(--br-xl);
+  background-color: var(--background-color);
+  border: 1px solid var(--color-silver);
+  justify-content: space-between;
+  padding: var(--padding-19xl) var(--padding-xs) var(--padding-9xl)
+    var(--padding-mid);
+  gap: var(--gap-xl);
+}
+.bookingContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-aktivgrotesk-medium);
+}
+@media screen and (max-width: 1225px) {
+  .bookingContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .bookingCategoryParent {
+    gap: var(--gap-29xl);
+  }
+  .statusDetails {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .am,
+  .bookingId,
+  .consultationCategory,
+  .div,
+  .hrs,
+  .sessionTime,
+  .startupConsultation,
+  .wedMay102024 {
+    font-size: var(--font-size-base);
+  }
+  .bookingCategoryParent {
+    flex-wrap: wrap;
+    gap: var(--gap-5xl);
+  }
+  .bookingStatus1 {
+    font-size: var(--font-size-base);
+  }
+  .confirmed {
+    font-size: var(--font-size-lg);
+  }
+  .joinSessionButton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .statusDetails {
+    flex-wrap: wrap;
+  }
+}
