@@ -1,9 +1,11 @@
 import FrameComponent1 from "../components/frame-component1";
 import FrameComponent from "../components/frame-component";
+import Navbar from "../components/Navbar";
 
 const DailySpotlightMonthly = () => {
   return (
-    <div className="w-full relative bg-whitesmoke-100 overflow-hidden flex flex-row items-start justify-center pt-[24.937rem] pb-[15.437rem] pr-[1.25rem] pl-[2rem] box-border leading-[normal] tracking-[normal]">
+    <>
+    <div className="w-full relative bg-whitesmoke-100 overflow-hidden flex flex-row items-start justify-center pr-[1.25rem] pl-[2rem] box-border leading-[normal] tracking-[normal]">
       <main className="w-[64.375rem] flex flex-col items-end justify-start pt-[0rem] px-[0rem] pb-[197.25rem] box-border relative gap-[6.125rem] max-w-full text-left text-[1.25rem] text-black font-aktivgrotesk-bold lg:pb-[54.125rem] lg:box-border mq450:pb-[22.875rem] mq450:box-border mq750:gap-[1.5rem] mq1050:gap-[3.063rem] mq1050:pb-[35.188rem] mq1050:box-border">
         <FrameComponent1 />
         <FrameComponent />
@@ -87,7 +89,7 @@ const DailySpotlightMonthly = () => {
             className="absolute top-[60.813rem] left-[31.625rem] w-[1.438rem] h-[1.438rem] overflow-hidden z-[2]"
             alt=""
             src="/gridiconsstory1.svg"
-          />
+            />
           <img
             className="absolute top-[47.5rem] left-[30.813rem] w-[1.438rem] h-[1.438rem] overflow-hidden z-[2]"
             alt=""
@@ -217,6 +219,7 @@ const DailySpotlightMonthly = () => {
         </section>
       </main>
     </div>
+            </>
   );
 };
 
