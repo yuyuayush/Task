@@ -1,7 +1,16 @@
-import { useMemo } from "react";
+import { FC, useMemo } from "react";
 import PropTypes from "prop-types";
+import { FCP } from "./frame-component21";
+interface FrameComponent3Props {
+  className?: string;
 
-const FrameComponent3 = ({
+  /** Style props */
+  propPadding?: string | number;
+  propBackgroundColor?: string;
+  propBackgroundColor1?: string;
+  propPadding1?: string | number;
+}
+const FrameComponent3:FC<FrameComponent3Props> = ({
   className = "",
   propPadding,
   propBackgroundColor,

@@ -1,6 +1,13 @@
 import { useMemo } from "react";
 import PropTypes from "prop-types";
-
+export interface FCP {
+  className:string,
+  min?:string,
+  propPadding?:string,
+  propGap?:string,
+  propPadding1?:string,
+  propMinWidth?:string,
+}
 const FrameComponent2 = ({
   className = "",
   min,
@@ -8,7 +15,7 @@ const FrameComponent2 = ({
   propGap,
   propPadding1,
   propMinWidth,
-}) => {
+}:FCP) => {
   const sessionIconStyle = useMemo(() => {
     return {
       padding: propPadding,

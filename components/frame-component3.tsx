@@ -1,6 +1,16 @@
 import PropTypes from "prop-types";
+import { FCP } from "./frame-component21";
+import { FC } from "react";
+interface FrameComponent3Props {
+  className?: string;
 
-const FrameComponent3 = ({ className = "" }) => {
+  /** Style props */
+  propPadding?: string | number;
+  propBackgroundColor?: string;
+  propBackgroundColor1?: string;
+  propPadding1?: string | number;
+}
+const FrameComponent3:FC<FrameComponent3Props> = ({ className = "" }) => {
   return (
     <section
       className={`self-stretch flex flex-row items-start justify-center pt-[0rem] pb-[6.418rem] pr-[1.25rem] pl-[6.562rem] box-border max-w-full shrink-0 mt-[-0.107rem] text-center text-[2rem] text-black font-aktivgrotesk-bold mq1350:pl-[3.25rem] mq1350:box-border mq800:pl-[1.625rem] mq800:pb-[4.188rem] mq800:box-border ${className}`}

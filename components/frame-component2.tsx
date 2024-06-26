@@ -1,6 +1,15 @@
 import PropTypes from "prop-types";
+import { FC } from "react";
 
-const FrameComponent2 = ({ className = "" }) => {
+export interface FrameComponent2Props {
+  className?:string,
+  min?: string;
+  propPadding?: string;
+  propGap?: string;
+  propPadding1?: string;
+  propMinWidth?: string;
+}
+const FrameComponent2:FC<FrameComponent2Props> = ({ className = "" }) => {
   return (
     <section
       className={`self-stretch flex flex-row items-start justify-center pt-[0rem] pb-[4.856rem] pr-[1.25rem] pl-[8.562rem] box-border max-w-full shrink-0 mt-[-0.107rem] text-center text-[1.5rem] text-background-color font-aktivgrotesk-bold mq1350:pl-[4.25rem] mq1350:box-border mq800:pl-[2.125rem] mq800:pb-[3.188rem] mq800:box-border ${className}`}
